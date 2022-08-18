@@ -1,6 +1,53 @@
 companies:
   - name: Maple Finance
-    keywords: [Backend]
+    keywords: []
     job-posting-tag: h5
     job-board-type: lever
     url: https://jobs.lever.co/maple-finance
+  - name: Alchemy
+    keywords: []
+    job-posting-tag: div
+    job-board-type: greenhouse
+    url: https://boards.greenhouse.io/alchemy
+  - name: Chainalysis
+    keywords: []
+    job-posting-tag: div
+    job-board-type: greenhouse
+    url: https://boards.greenhouse.io/chainalysis
+  - name: Titan
+    keywords: []
+    job-posting-tag: div
+    job-board-type: greenhouse
+    url: https://boards.greenhouse.io/titan
+  - name: Ava Labs
+    keywords: []
+    job-posting-tag: div
+    job-board-type: greenhouse
+    url: https://boards.greenhouse.io/avalabs
+  - name: Greyscale Investments
+    keywords: []
+    job-posting-tag: div
+    job-board-type: greenhouse
+    url: https://boards.greenhouse.io/grayscaleinvestments
+  - name: a16z
+    keywords: []
+    job-posting-tag: div
+    job-board-type: greenhouse-type
+    url: https://a16z.com/about/jobs/
+  - name: OpenSea
+    keywords: []
+    job-posting-tag: h5
+    job-board-type: lever
+    url: https://jobs.lever.co/OpenSea
+  - name: FTX
+    keywords: []
+    job-posting-tag: h5
+    job-board-type: lever
+    url: https://jobs.lever.co/FTXUS
+## none lever or greenhouse
+# circle
+# coinbase
+# galaxy digital
+# blockchain intelligence group
+# solana
+

@@ -1,5 +1,3 @@
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
 # cmd-shift-p to reload vscode window
 from pretty_html_table import build_table
 from selenium import webdriver
@@ -24,6 +22,17 @@ def format_data(matching_jobs: list):
     return data
 
 
+def count_num_companies():
+    count = 0
+    for items in config:
+        for company in items:
+            print(item)
+            count += 1
+    return count
+
+
+# this link: https://monkeylearn.com/word-cloud/
+# takes a comma seperated list and returns the word cloud
 if __name__ == "__main__":
     matching_jobs = list()
     for company in config['companies']:
@@ -34,11 +43,12 @@ if __name__ == "__main__":
 
         if company['job-board-type'] == 'lever':
             matching_jobs.extend(driver.handle_lever())
-        elif company['job-board-type'] == 'greenhouse':
+        elif company['job-board-type'] == 'greenhouse' or company['job-board-type'] == 'greenhouse-type':
             matching_jobs.extend(driver.handle_greenhouse())
         elif company['job-board-type'] == 'custom':
             matching_jobs.extend(driver.handle_url_mutation())
 
-    print("lenght of list:", len(matching_jobs))
+    print("length of list:", len(matching_jobs))
+    print("number of companies scraped:", count_num_companies())
     data = format_data(matching_jobs)
     driver.quit()

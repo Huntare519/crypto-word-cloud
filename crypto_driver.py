@@ -39,9 +39,7 @@ class Driver:
         for title in titles:
             job = title.find_element(By.TAG_NAME, "h5")
             link = title.get_attribute("href")
-            for keyword in self.keywords:
-                if keyword in job.text:
-                    matching_results.append([job.text, self.company, link])
+            matching_results.append([job.text, self.company, link])
         return matching_results
 
     def handle_greenhouse(self):
@@ -53,11 +51,9 @@ class Driver:
 
         for job in jobs:
             link = job.find_element(By.TAG_NAME, "a")
-            for keyword in self.keywords:
-                if keyword in job.text:
-                    job_title = job.text.split("\n")
-                    matching_results.append(
-                        [job_title[0], self.company, link.get_attribute('href')])
+            job_title = job.text.split("\n")
+            matching_results.append(
+                [job_title[0], self.company, link.get_attribute('href')])
         return matching_results
 
     def handle_url_mutation(self):
