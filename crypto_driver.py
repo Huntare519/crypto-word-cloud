@@ -19,6 +19,7 @@ class Driver:
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("--disable-logging")
         chrome_options.add_argument("--incognito")
+        # if you get an issue about versions of chrome being out of date, please run brew reinstall --cask chromedriver
         self.driver = webdriver.Chrome(chrome_options=chrome_options)
 
     def load_page(self):

@@ -11,4 +11,8 @@ In the future, we may expand this project to create an internal job scraper for 
    - make sure your chrome versions match, or it will ruin everything
 3. Run `pip install -r /path/to/requirements.txt` to get all the packages you may need.
 
+# Troubleshoot
+
+After long periods of inactivity, the ChromeDriver may be out of date. You can use the following cmd to update it: `brew reinstall --cask chromedriver`. Them, check the version with `chromedriver -v`. If you are on Mac, it will most likely be blocked. Go to System Preferences -> Security & Privacy and **allow** chromedriver.
+
 # Contribute
