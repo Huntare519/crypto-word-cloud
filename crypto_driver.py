@@ -24,14 +24,14 @@ class Driver:
 
     def load_page(self):
         self.driver.get(self.url)
-        time.sleep(5)
+        time.sleep(2)
 
     def quit(self):
         self.driver.quit()
 
     def handle_lever(self):
         self.driver.maximize_window()
-        time.sleep(5)
+        time.sleep(2)
         titles = self.driver.find_elements(
             By.CLASS_NAME, "posting-title")
 

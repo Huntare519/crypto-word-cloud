@@ -4,66 +4,66 @@ companies:
     job-posting-tag: h5
     job-board-type: lever
     url: https://jobs.lever.co/maple-finance
-  - name: Alchemy
-    keywords: []
-    job-posting-tag: div
-    job-board-type: greenhouse
-    url: https://boards.greenhouse.io/alchemy
-  - name: Chainalysis
-    keywords: []
-    job-posting-tag: div
-    job-board-type: greenhouse
-    url: https://boards.greenhouse.io/chainalysis
-  - name: Titan
-    keywords: []
-    job-posting-tag: div
-    job-board-type: greenhouse
-    url: https://boards.greenhouse.io/titan
-  - name: Ava Labs
-    keywords: []
-    job-posting-tag: div
-    job-board-type: greenhouse
-    url: https://boards.greenhouse.io/avalabs
-  - name: Greyscale Investments
-    keywords: []
-    job-posting-tag: div
-    job-board-type: greenhouse
-    url: https://boards.greenhouse.io/grayscaleinvestments
-  - name: a16z
-    keywords: []
-    job-posting-tag: div
-    job-board-type: greenhouse-type
-    url: https://a16z.com/about/jobs/
-  - name: OpenSea
-    keywords: []
-    job-posting-tag: h5
-    job-board-type: lever
-    url: https://jobs.lever.co/OpenSea
-  - name: FTX
-    keywords: []
-    job-posting-tag: h5
-    job-board-type: lever
-    url: https://jobs.lever.co/FTXUS
-  - name: TRM Labs
-    keywords: []
-    job-posting-tag: div
-    job-board-type: greenhouse-type
-    url: https://www.trmlabs.com/careers#open-roles
-  - name: Trail of Bits
-    keywords: []
-    job-posting-tag: h5
-    job-board-type: lever
-    url: https://jobs.lever.co/trailofbits
-  - name: Solana Foundation
-    keywords: []
-    job-posting-tag: div
-    job-board-type: greenhouse
-    url: https://boards.greenhouse.io/solanafoundation
-  - name: Manifold Trading
-    keywords: []
-    job-posting-tag: div
-    job-board-type: greenhouse
-    url: https://boards.greenhouse.io/manifoldtrading/jobs/4088051005
+  # - name: Alchemy
+  #   keywords: []
+  #   job-posting-tag: div
+  #   job-board-type: greenhouse
+  #   url: https://boards.greenhouse.io/alchemy
+  # - name: Chainalysis
+  #   keywords: []
+  #   job-posting-tag: div
+  #   job-board-type: greenhouse
+  #   url: https://boards.greenhouse.io/chainalysis
+  # - name: Titan
+  #   keywords: []
+  #   job-posting-tag: div
+  #   job-board-type: greenhouse
+  #   url: https://boards.greenhouse.io/titan
+  # - name: Ava Labs
+  #   keywords: []
+  #   job-posting-tag: div
+  #   job-board-type: greenhouse
+  #   url: https://boards.greenhouse.io/avalabs
+  # - name: Greyscale Investments
+  #   keywords: []
+  #   job-posting-tag: div
+  #   job-board-type: greenhouse
+  #   url: https://boards.greenhouse.io/grayscaleinvestments
+  # - name: a16z
+  #   keywords: []
+  #   job-posting-tag: div
+  #   job-board-type: greenhouse-type
+  #   url: https://a16z.com/about/jobs/
+  # - name: OpenSea
+  #   keywords: []
+  #   job-posting-tag: h5
+  #   job-board-type: lever
+  #   url: https://jobs.lever.co/OpenSea
+  # - name: FTX
+  #   keywords: []
+  #   job-posting-tag: h5
+  #   job-board-type: lever
+  #   url: https://jobs.lever.co/FTXUS
+  # - name: TRM Labs
+  #   keywords: []
+  #   job-posting-tag: div
+  #   job-board-type: greenhouse-type
+  #   url: https://www.trmlabs.com/careers#open-roles
+  # - name: Trail of Bits
+  #   keywords: []
+  #   job-posting-tag: h5
+  #   job-board-type: lever
+  #   url: https://jobs.lever.co/trailofbits
+  # - name: Solana Foundation
+  #   keywords: []
+  #   job-posting-tag: div
+  #   job-board-type: greenhouse
+  #   url: https://boards.greenhouse.io/solanafoundation
+  # - name: Manifold Trading
+  #   keywords: []
+  #   job-posting-tag: div
+  #   job-board-type: greenhouse
+  #   url: https://boards.greenhouse.io/manifoldtrading
 ## none lever or greenhouse
 # circle
 # coinbase

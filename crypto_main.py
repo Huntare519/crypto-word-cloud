@@ -1,6 +1,7 @@
 # cmd-shift-p to reload vscode window
 import yaml
 import os
+import re
 from dotenv import load_dotenv
 #import pandas as pd
 from crypto_driver import Driver
@@ -23,14 +24,35 @@ def write_to_file(data):
     cwd = os.getcwd() + ("/all_jobs.csv")
     file = open('all_jobs.csv', 'w')
     for items in data:
-        file.writelines([items])
+        # creating a csv
+        file.write(items[0].replace(", ", "-") + ",")
+        file.write('\n')
     file.close()
+
+
+def create_best_file(data):
+    banned_words = ['your', 'role', 'not', 'listed',
+                    'apply', 'here', 'general', 'application']
+    pattern = '^[A-Za-z0-9]*$'  # filter out special characters
+    file = open('lineByline.csv', 'w')
+    for items in data:
+        # creating a csv
+        words = items[0].split(" ")
+        for word in words:
+            if word.lower() not in banned_words and re.match(pattern, word):
+                file.write(word + ",")
+                file.write('\n')
+    file.close()
+
+
+def clean_file():
+    pass
 
 
 def count_num_companies():
     count = 0
-    for items in config:
-        for company in items:
+    for k, v in config.items():
+        for companies in v:
             count += 1
     return count
 
@@ -56,4 +78,5 @@ if __name__ == "__main__":
     print("number of companies scraped:", count_num_companies())
     #data = format_data(matching_jobs)
     write_to_file(matching_jobs)
+    create_best_file(matching_jobs)
     driver.quit()
