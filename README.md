@@ -6,14 +6,14 @@ In it's current iteration, it only scrapes _lever_ and _greenhouse_ job boards. 
 
 In the future, we may expand this project to create an internal job scraper for the Badger Blockchain club. More forthcoming.
 
-# Getting Started
+## Getting Started
 
 1. Clone this repo to your local machine. All development was done on MacOS.
 2. Download [Selenium Browser Drivers](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/).
    - make sure your chrome versions match, or it will ruin everything
 3. Run `pip install -r /path/to/requirements.txt` to get all the packages you may need.
 
-## Updating Config File
+### Updating Config File
 
 Companies scraped are taken from the `config.yaml`, which has the following format:
 
@@ -27,11 +27,11 @@ Companies scraped are taken from the `config.yaml`, which has the following form
 
 Currently, we are scraping 16 job boards.
 
-# Troubleshoot
+## Troubleshoot
 
 After long periods of inactivity, the ChromeDriver may be out of date. You can use the following cmd to update it: `brew reinstall --cask chromedriver`. Them, check the version with `chromedriver -v`. If you are on Mac, it will most likely be blocked. Go to System Preferences -> Security & Privacy and **allow** chromedriver.
 
-# The Word Cloud
+## The Word Cloud
 
 The word cloud was generated using the [Free Word Cloud Generator](https://www.freewordcloudgenerator.com/generatewordcloud)
 
