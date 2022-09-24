@@ -35,6 +35,6 @@ After long periods of inactivity, the ChromeDriver may be out of date. You can u
 
 The word cloud was generated using the [Free Word Cloud Generator](https://www.freewordcloudgenerator.com/generatewordcloud)
 
-![Alt Text](/crypto-word-cloud/WordCloud.png)
+![Alt Text](WordCloud.png)
 
 What does this show us? Well, engineering is the largest job title, which was expected. However, it also shows that the talent needed in web3 is vast - not just coders!

@@ -14,12 +14,6 @@ with open('config.yaml', 'r') as file:
 load_dotenv()
 
 
-# def format_data(matching_jobs: list):
-#     data = pd.DataFrame(matching_jobs, columns=[
-#                         "Job Title", 'Company Name', 'Link'])
-#     return data
-
-
 def write_to_file(data):
     cwd = os.getcwd() + ("/all_jobs.csv")
     file = open('all_jobs.csv', 'w')
@@ -57,8 +51,6 @@ def count_num_companies():
     return count
 
 
-# this link: https://monkeylearn.com/word-cloud/
-# takes a comma seperated list and returns the word cloud
 if __name__ == "__main__":
     matching_jobs = list()
     for company in config['companies']:
